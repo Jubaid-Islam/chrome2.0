@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chrome 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- upper box -->
+    <div class="upper">
+        <div class="line1">
+            <div class="line1item">
+
+                <div class="lefticon1">
+                    <i class="fa-solid fa-arrow-left hover1 scale ic1 ic2"></i>
+                    <i class="fa-solid fa-arrow-right ic1 ic2"></i>
+                    <i class="fa-solid fa-arrow-rotate-right ic1 ic2"></i>
+                </div>
+
+
+                <form class="form1" action="/search" method="get">
+                    <input class="input1 ic1 ic2" type="search" name="query" placeholder="search Google or type a URL" />
+                    <div class="info">
+                        <i class="fa-solid fa-circle-info ic1 ic2"></i>
+                    </div>
+
+                    <div class="star"> 
+                        <i class="fa-solid fa-star sic1 sic2"></i>
+                    </div>
+
+                </form>
+
+
+                <div class="righticon1">
+                    <i class="fa-solid fa-user ic1 ic2"></i>
+                    <i class="fa-solid fa-ellipsis-vertical ic1 ic2"></i>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="line2">
+            <div class="left">
+                <ul>
+                    <li><i class="fa-solid fa-graduation-cap ic1 ic2"></i></li>
+                    <li> | </li>
+
+                    <img class="margin" id="line2yt" src="yt.png">
+                    <li class="ytgpt"> Youtube</li>
+                    <img class="margin2" id="line2gpt" src="gpt.png">
+                    <li class="ytgpt"> ChatGpt </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li> | </li>
+                    <li><i class="fa-solid fa-folder ic1 ic2"></i></li>
+                    <li class="ytgpt">All Bookmarks</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- middle box -->
+    <div class="middle">
+        <div class="nav">
+            <ul>
+                <li class="uline">Gmail</li>
+                <li class="uline">Image</li>
+                <li> <i class="fa-solid fa-flask ic1 ic2"></i> </li>
+                <li> <i class="fa-solid fa-ghost ic1 ic2"></i> </li>
+                <li class="j"> J </li>
+            </ul>
+        </div>
+
+
+        <div class="mainbody">
+
+            <div class="pbox1">
+                <div class="box1">
+                    <a>Google</a>
+                </div>
+            </div>
+
+
+            <div class="box2">
+                <form class="form2" action="/search" method="get">
+                    <input class="input2" type="search" name="query" placeholder="search Google or type a URL" />
+                    <div class="info">
+                    </div>
+
+                    <div class="searchicon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="righticon2">
+                        <div class="voiceicon ic1 ic2">
+                            <i class="fa-solid fa-microphone "></i>
+                        </div>
+
+                        <div class="cameraicon ic1 ic2">
+                            <i class="fa-solid fa-camera-retro"></i>
+                        </div>
+                    </div>
+
+            </div>
+
+
+            <div id="box3" class="font">
+
+                <!-- youtube -->
+                <div class="parent">
+                    <a href="http://google.com" class="rul">
+
+                        <div class="child ">
+                            <img class="ytpng" src="yt.png">
+                        </div>
+                        <p class="title"> Youtube</p>
+                    </a>
+                </div>
+
+                <!-- facebook -->
+                <div class="parent">
+                    <a href="http://facebook.com" class="rul">
+
+                    <div class="child">
+                        <img class="fbpng" src="fb.png">
+                    </div>
+
+                    <p class="title"> Facebook</p>
+                </div>
+
+                <!-- whatsapp -->
+                <div class="parent">
+                    <a href="http://whatsapp.com" class="rul">
+                    <div class="child">
+                        <img class="wppng" src="wp.png">
+                    </div>
+                    <p class="title"> Whatsapp</p>
+                </div>
+
+                <!-- x -->
+                <div class="parent">
+                    <a href="http://x.com" class="rul">
+                    <div class="child">
+                        <img class="xpng" src="x.png">
+                    </div>
+                    <p class="title"> X</p>
+                </div>
+
+                <!-- instagram -->
+                <div class="parent">
+                    <a href="http://instagram.com" class="rul">
+                    <div class="child">
+                        <img class="igpng" src="ig.png">
+                    </div>
+                    <p class="title"> Instagram</p>
+                </div>
+
+                <!-- ChatGpt -->
+                <div class="parent">
+                    <a href="http://chatgpt.com" class="rul">
+                    <div class="child">
+                        <img class="gptpng" src="gpt.png">
+                    </div>
+                    <p class="title"> ChatGpt</p>
+                </div>
+
+            </div>
+
+
+            <div id="box4" class="font">
+
+                <!-- threads -->
+                <div class="parent">
+                    <a href="http://threads.com" class="rul">
+                    <div class="child">
+                        <img class="trdspng" src="trds.png">
+                    </div>
+                    <p class="title"> Threads</p>
+                </div>
+
+                <!-- wikipedia -->
+                <div class="parent">
+                    <a href="http://wikipedia.com" class="rul">
+
+                    <div class="child">
+                        <img class="wikipng" src="wiki.png">
+                    </div>
+
+                    <p class="title"> Wikipedia</p>
+                </div>
+
+                <!-- telegram -->
+                <div class="parent">
+                    <a href="http://telegram.com" class="rul">
+                    <div class="child">
+                        <img class="tgpng" src="tg.png">
+                    </div>
+                    <p class="title"> Telegram</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- down box -->
+    <div class="down">
+
+        <div class="parentbtn">
+            <a href="http://#.com" class="rul">
+            <div class="btn" id="fontbtn">
+                <i class="fa-solid fa-pen" id="pen"></i>
+                edit
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

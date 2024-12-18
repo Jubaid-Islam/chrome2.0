@@ -1,0 +1,17 @@
+1. upper box -->  
+    
+    . line 1 
+    . line 2
+
+
+
+2. middle box --> 
+
+    . nav bar
+    . main body -->
+        . line 1
+        . line 2
+        . line 3
+
+
+3. down box
